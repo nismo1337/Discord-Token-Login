@@ -12,3 +12,8 @@ document.body.appendChild(document.createElement iframe).contentWindow.localStor
 
 login(token);
 ```
+
+## How do I use this?
+
+Simply replace "token here :D" with your token and then run it in your browsers developer console.
+
