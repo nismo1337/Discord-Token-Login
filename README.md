@@ -18,5 +18,5 @@ login(token);
 
 ## How do I use this?
 
-Simply replace "token here :D" with your token and then run it in your browsers developer console.
+Simply replace "your token" with your token and then run it in your browsers developer console.
 
