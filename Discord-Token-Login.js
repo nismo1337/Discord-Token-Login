@@ -1,9 +1,12 @@
-let token = "token here :D";
+let token = "your token";
 
 function login(token) {
-setInterval(() => {
-document.body.appendChild(document.createElement iframe).contentWindow.localStorage.token = "${token}"
-}, 50);
-}
+    setInterval(() => {
+      document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`
+    }, 50);
+    setTimeout(() => {
+      location.reload();
+    }, 2500);
+  }
 
 login(token);
